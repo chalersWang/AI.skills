@@ -1,6 +1,6 @@
 # AI.skills — Claude Code Skills 精选合集
 
-> 从 GitHub 收集**排名靠前**的 Claude Code / Agent Skills，按「文档 / 芯片研发 / 管理」三大类整理。
+> 从 GitHub 收集**排名靠前**的 Claude Code / Agent Skills，按「文档 / 芯片研发 / 管理 / 通用」四大类整理。
 > 每个技能标注来源仓库、星数与一句话说明，附获取方式。星数来自 GitHub 实时数据（2026-09 整理）。
 
 Skills 是「文件夹 + SKILL.md」形式的指令包，Claude Code 等 agent 按需动态加载，用来教会 agent 完成特定任务（文档、EDA、项目管理等）。本仓库是一个**分类索引**，并对核心技能附上其 SKILL.md 正文，方便离线查阅与二次改造。
@@ -14,6 +14,7 @@ Skills 是「文件夹 + SKILL.md」形式的指令包，Claude Code 等 agent �
 | **1. 文档类** | PDF / Word / Excel / PPT / 画图·流程图 | [01-documents](./01-documents/) |
 | **2. 芯片研发** | 设计·验证·中后端 / 语言 / Synopsys 工具 | [02-chip](./02-chip/) |
 | **3. 管理类** | 项目管理 / 进度 / 汇报 | [03-management](./03-management/) |
+| **4. 通用 · Superpowers 精选** | AI 工程 / 设计 / 科研 / 营销 / 写作 / 浏览器 | [04-superpowers](./04-superpowers/) |
 
 ---
 
@@ -122,6 +123,26 @@ Skills 是「文件夹 + SKILL.md」形式的指令包，Claude Code 等 agent �
 | **ccpm** | [automazeio/ccpm](https://github.com/automazeio/ccpm) | 8.4k | 项目管理 skill 系统：用 GitHub Issues + git worktree 并行执行 agent 任务 |
 
 > 项目管理 / 进度 / 汇报方向的专用 skill 在 GitHub 上同样稀缺，`ccpm` 是当前最成熟的标杆。其余需求建议结合本地 `feishu-reader`（飞书文档/知识库）、`docx`/`xlsx`/`pptx`（周报/汇报材料）组合实现。
+
+---
+
+## 4. 通用 · Superpowers 精选
+
+> 收录 9 个 GitHub 顶级通用技能（全部 MIT），覆盖 AI 工程、UI/UX 设计、科研、营销、写作、浏览器自动化。命名致敬 [obra/superpowers](https://github.com/obra/superpowers)（288k ⭐ 标杆）。
+
+| 技能 | 来源仓库 | ⭐ | 说明 |
+|------|----------|----|------|
+| **ui-ux-pro-max-skill** | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | 129k | UI/UX 设计智能（风格/配色/字体/图表本地检索库） |
+| **agent-skills** | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | 96k | 生产级 AI 编码代理工程技能集（25 子技能） |
+| **planning-with-files** | [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files) | 27k | 持久化文件式规划（Manus 风格） |
+| **agent-skills-for-context-engineering** | [muratcankoylan/Agent-Skills-for-Context-Engineering](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering) | 18k | 上下文工程 / 多智能体架构（17 子技能） |
+| **obsidian-skills** | [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) | 48.5k | Obsidian 笔记 / 知识库（6 子技能） |
+| **scientific-agent-skills** | [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | 45.4k | 科研技能库（生物/化学/医学，166 子技能） |
+| **marketingskills** | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | 50.7k | 营销技能集（CRO/文案/SEO/增长，50 子技能） |
+| **dev-browser** | [SawyerHood/dev-browser](https://github.com/SawyerHood/dev-browser) | 6.6k | 浏览器自动化 |
+| **humanizer** | [blader/humanizer](https://github.com/blader/humanizer) | 49.7k | 去除 AI 生成痕迹 |
+
+> 详见 [`04-superpowers/README.md`](./04-superpowers/README.md)（含子技能清单与安装命令）。
 
 ---
 
