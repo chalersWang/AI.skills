@@ -1,7 +1,7 @@
 # 04 · Superpowers 级通用技能精选
 
 > 收录 9 个 GitHub 上**顶级通用 Claude Code / Agent 技能**，覆盖 AI 工程、UI/UX 设计、科研、营销、写作、浏览器自动化、上下文工程等方向。
-> 全部为 **MIT 许可**，正文已收录（SKILL.md / README / LICENSE），可离线查阅与二次改造。
+> 全部为 **MIT 许可**，各技能子目录已**全量收录**（SKILL.md + references/scripts/data + LICENSE；个别 CLI 型技能仅收录 SKILL.md），可离线查阅与二次改造。
 >
 > 命名致敬 [obra/superpowers](https://github.com/obra/superpowers)（288k ⭐ 的 Agent 技能框架标杆）——本目录收录的是与之同级的**独立顶级技能**，并非 superpowers 本身。
 
@@ -32,7 +32,7 @@
 - **能力**：79 种 UI 风格（50 激活）、192 套产品配色、74 组字体配对、119 条 UX 准则、105 图标、17 GSAP 预设、25 图表类型、22 个技术栈（React/Next.js/Vue/SwiftUI/Flutter/shadcn 等）。
 - **子技能（7）**：`ui-ux-pro-max`（主）、`design`、`design-system`、`banner-design`、`brand`、`slides`、`ui-styling`。
 - **安装**：`npm install -g uipro-cli && uipro init --ai claude`（需 Python 3）。
-- 已收录：`SKILL.md`（主技能）、`README.md`、`LICENSE`。
+- 已收录：**完整 7 个子技能**（`skills/` 目录，260 文件，含 `data/` 风格·配色库与 `scripts/` 检索脚本）、`README.md`、`LICENSE`。
 
 ## 2. agent-skills（生产级 AI 编码代理技能集）
 
@@ -49,7 +49,7 @@ Manus 风格三文件规划，解决上下文易失 / 目标漂移 / 隐藏错�
 - **核心**：`task_plan.md`（阶段与进度）+ `findings.md`（调研） + `progress.md`（会话日志）；「上下文 = 内存（易失），文件系统 = 磁盘（持久）」。
 - **特性**：`/clear` 与压缩后自动恢复、SHA-256 计划校验防篡改、完成门禁。
 - **安装**：`npm install -g planning-with-files`，或通过 Claude Code 插件市场 / `npx skills` 安装。
-- 已收录：`SKILL.md`、`LICENSE`。
+- 已收录：`SKILL.md`、`examples.md`、`reference.md`、`scripts/`（22 个 sh/ps1/py 脚本）、`templates/`（7 个模板）、`LICENSE`。
 
 ## 4. agent-skills-for-context-engineering（上下文工程技能集）
 
@@ -57,7 +57,7 @@ Manus 风格三文件规划，解决上下文易失 / 目标漂移 / 隐藏错�
 
 - **子技能（17）**：`context-fundamentals`、`context-compression`、`context-degradation`、`context-optimization`、`filesystem-context`、`memory-systems`、`latent-briefing`、`long-horizon-prompting`、`multi-agent-patterns`、`harness-engineering`、`hosted-agents`、`bdi-mental-states`、`advanced-evaluation`、`evaluation`、`tool-design`、`project-development`、`self-improvement-loops`。
 - **安装**：`git clone https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering && cp -r Agent-Skills-for-Context-Engineering/skills/* ~/.claude/skills/`
-- 已收录：`SKILL.md`（根入口）、`README.md`、`LICENSE`。
+- 已收录：**完整 17 个子技能**（`skills/` 目录，57 文件，含 SKILL.md + references）、`README.md`、`LICENSE`。
 
 ## 5. obsidian-skills（Obsidian 笔记 / 知识库）
 
@@ -65,7 +65,7 @@ Manus 风格三文件规划，解决上下文易失 / 目标漂移 / 隐藏错�
 
 - **子技能（6）**：`obsidian-cli`、`obsidian-markdown`、`obsidian-bases`、`json-canvas`、`knap`（卡片式笔记）、`defuddle`（网页正文提取）。
 - **安装**：`git clone https://github.com/kepano/obsidian-skills && cp -r obsidian-skills/skills/* ~/.claude/skills/`
-- 已收录：`README.md`、`LICENSE`。
+- 已收录：**完整 6 个子技能**（`skills/` 目录，11 文件，含 SKILL.md + references）、`README.md`、`LICENSE`。
 
 ## 6. scientific-agent-skills（科研技能库）
 
@@ -74,7 +74,7 @@ Manus 风格三文件规划，解决上下文易失 / 目标漂移 / 隐藏错�
 - **能力**：165+ 科研技能 + 100+ 科学数据库，覆盖生物学 / 化学 / 医学 / 药物发现（RNA-seq、AlphaGenome、UniProt、BLAST 等）。
 - **代表子技能（前 30，共 166）**：`alphagenome`、`biopython`、`bulk-rnaseq`、`cellxgene-census`、`clinical-reports`、`cobrapy`、`datamol`、`deepchem`、`depmap`、`diffdock`、`esm`、`experimental-design`、`exploratory-data-analysis`、`anndata`、`astropy`、`bids`、`cirq`、`dask`、`citation-management`、`datalad`、`flowio` ……
 - **安装**：`git clone https://github.com/K-Dense-AI/scientific-agent-skills && cp -r scientific-agent-skills/skills/* ~/.claude/skills/`
-- 已收录：`README.md`、`LICENSE.md`。
+- 已收录：**完整 166 个子技能**（`skills/` 目录，2068 文件，含 SKILL.md + references/scripts）、`README.md`、`LICENSE.md`。
 
 ## 7. marketingskills（营销技能集）
 
@@ -82,7 +82,7 @@ CRO、文案、SEO、分析、增长工程等全套营销技能。
 
 - **子技能（50）**：`copywriting`、`copy-editing`、`cro`、`ai-seo`、`seo-audit`、`programmatic-seo`、`schema`、`site-architecture`、`content-strategy`、`ab-testing`、`analytics`、`attribution`、`revops`、`sales-enablement`、`product-marketing`、`pricing`、`offers`、`paywalls`、`popups`、`signup`、`onboarding`、`churn-prevention`、`cold-email`、`emails`、`sms`、`prospecting`、`lead-magnets`、`ads`、`ad-creative`、`social`、`video`、`image`、`influencer-marketing`、`community-marketing`、`co-marketing`、`referrals`、`public-relations`、`events`、`directory-submissions`、`competitors`、`competitor-profiling`、`customer-research`、`marketing-plan`、`marketing-ideas`、`marketing-psychology`、`marketing-loops`、`marketing-council`、`launch`、`free-tools`、`aso`。
 - **安装**：`git clone https://github.com/coreyhaines31/marketingskills && cp -r marketingskills/skills/* ~/.claude/skills/`
-- 已收录：`README.md`、`LICENSE`。
+- 已收录：**完整 50 个子技能**（`skills/` 目录，279 文件，含 SKILL.md + references）、`README.md`、`LICENSE`。
 
 ## 8. dev-browser（浏览器自动化）
 
