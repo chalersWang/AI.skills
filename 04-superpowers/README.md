@@ -40,7 +40,7 @@ Addy Osmani（Google Chrome 团队）出品，面向真实工程场景的成套�
 
 - **子技能（25）**：`api-and-interface-design`、`browser-testing-with-devtools`、`ci-cd-and-automation`、`code-review-and-quality`、`code-simplification`、`constraint-driven-development`、`context-engineering`、`debugging-and-error-recovery`、`deprecation-and-migration`、`documentation-and-adrs`、`doubt-driven-development`、`frontend-ui-engineering`、`git-workflow-and-versioning`、`idea-refine`、`incremental-implementation`、`interview-me`、`observability-and-instrumentation`、`performance-optimization`、`planning-and-task-breakdown`、`security-and-hardening`、`shipping-and-launch`、`source-driven-development`、`spec-driven-development`、`test-driven-development`、`using-agent-skills`。
 - **安装**：`git clone https://github.com/addyosmani/agent-skills && cp -r agent-skills/skills/* ~/.claude/skills/`
-- 已收录：`README.md`、`LICENSE`（正文含 25 个 SKILL.md，请从上游仓库取全量）。
+- 已收录：**完整 25 个子技能**（`skills/` 目录，含 SKILL.md + references/scripts）、`README.md`、`LICENSE`。
 
 ## 3. planning-with-files（持久化文件式规划）
 
