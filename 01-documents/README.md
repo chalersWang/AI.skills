@@ -2,7 +2,7 @@
 
 涵盖 PDF、Word、Excel、PPT，以及画图 / 流程图（draw.io / Mermaid / Excalidraw / SVG）。
 
-> 目录内已收录部分核心技能的 `SKILL.md` 正文（`pdf/`、`docx/`、`xlsx/`、`pptx/`、`diagram/`），其余以链接形式索引。
+> 目录内已收录：官方文档技能 `pdf/`、`docx/`、`xlsx/`、`pptx/`（**完整本地版本，含 scripts 脚本与 LICENSE**）、`doc-coauthoring`（文档协作）、`feishu-reader`（飞书文档，**已脱敏**），以及 `diagram/` 社区画图技能。其余以链接形式索引。
 
 ---
 
@@ -42,6 +42,14 @@
 | **dashi-ppt-skill** | [chuspeeism/dashi-ppt-skill](https://github.com/chuspeeism/dashi-ppt-skill) | 8.3k | 多主题、浏览器可编辑演示，导出 HTML/PDF/PPTX |
 | **codex-ppt-skill** | [ningzimu/codex-ppt-skill](https://github.com/ningzimu/codex-ppt-skill) | 6.0k | 基于图片的 PowerPoint 生成 |
 | **GordenPPTSkill** | [GordenSun/GordenPPTSkill](https://github.com/GordenSun/GordenPPTSkill) | 3.1k | 17 套中文 PPTX 模板 + 非破坏性文字编辑 |
+
+## 1.6 文档协作 · 知识库阅读（本地技能）
+| 技能 | 来源 | ⭐ | 说明 |
+|------|------|----|------|
+| **doc-coauthoring** | [本地收录](./doc-coauthoring/) | 本地 | 结构化文档协作工作流（上下文收集→迭代精炼→读者验证） |
+| **feishu-reader** | [本地收录（已脱敏）](./feishu-reader/) | 本地 | 读取/操作飞书文档与知识库（需自行填入应用凭据） |
+
+---
 
 ## 1.5 画图 · 流程图
 | 技能 | 来源 | ⭐ | 说明 |

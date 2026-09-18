@@ -19,6 +19,8 @@ Skills 是「文件夹 + SKILL.md」形式的指令包，Claude Code 等 agent �
 
 ## 1. 文档类（读取 & 编辑）
 
+> 📦 官方文档技能（pdf/docx/xlsx/pptx）已收录**完整本地版本**（含 scripts 脚本）；另收录本地技能 `doc-coauthoring`（文档协作）、`feishu-reader`（飞书文档，已脱敏）。
+
 ### 1.1 PDF
 | 技能 | 来源 | ⭐ | 说明 |
 |------|------|----|------|
