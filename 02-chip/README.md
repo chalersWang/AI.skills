@@ -9,7 +9,7 @@
 ## 2.1 芯片设计 · 验证 · 中后端
 | 技能 | 来源 | ⭐ | 说明 |
 |------|------|----|------|
-| **verilog-generator** | [Eriemon/verilog-generator](https://github.com/Eriemon/verilog-generator) | 284 | Verilog-2001 RTL 生成 + FPGA 设计流程 |
+| **verilog-generator** | [Eriemon/verilog-generator](https://github.com/Eriemon/verilog-generator) | 287 | Verilog-2001 RTL 生成 + FPGA 设计流程 |
 | **30-days-of-verilog** | [Akashtailor-exe/30-days-of-verilog](https://github.com/Akashtailor-exe/30-days-of-verilog) | 75 | 30 天 Verilog 数字电路练习（门级→FSM） |
 | **108-RTL-Projects** | [Abhishekvlsi/108-RTL-Projects](https://github.com/Abhishekvlsi/108-RTL-Projects) | 64 | 108 个 RTL 设计项目 |
 | **RTL-ASS** | [liujianyu20021122/RTL-ASS](https://github.com/liujianyu20021122/RTL-ASS) | 63 | 开源工具链的 RTL 编码 + 验证技能 |
@@ -21,7 +21,7 @@
 ## 2.2 语言类（VHDL / Verilog / SV / UVM / Coverage / SVA / C / C++ / Python / Tcl / Makefile）
 | 技能 | 来源 | ⭐ | 说明 |
 |------|------|----|------|
-| **verilog-generator** | [Eriemon/verilog-generator](https://github.com/Eriemon/verilog-generator) | 284 | Verilog RTL |
+| **verilog-generator** | [Eriemon/verilog-generator](https://github.com/Eriemon/verilog-generator) | 287 | Verilog RTL |
 | **RTL-ASS** | [liujianyu20021122/RTL-ASS](https://github.com/liujianyu20021122/RTL-ASS) | 63 | Verilog / SystemVerilog |
 | **awesome-formal-verification-skill** | [gokeshenzhen/awesome-formal-verification-skill](https://github.com/gokeshenzhen/awesome-formal-verification-skill) | 34 | SVA / FPV（JasperGold，含 TCL） |
 | **veriloga-skills** | [Arcadia-1/veriloga-skills](https://github.com/Arcadia-1/veriloga-skills) | 34 | Verilog-A 模拟建模 |
