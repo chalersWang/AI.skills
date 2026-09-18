@@ -38,15 +38,18 @@
 
 ---
 
-## 📦 本地已装芯片技能（补充参考）
+## 📦 本地芯片技能（已收录到本仓库）
+
+这 7 个本地自建技能已打包上传到 [`verification/`](./verification/) 目录：
+
 | 技能 | 用途 |
 |------|------|
-| `systemverilog` | SystemVerilog 语言规范 / 编码 |
-| `uvm-verification` | UVM 验证方法学 |
+| `dv_skills` | 芯片前端验证技能库（UVM/覆盖率/CDC/低功耗/RAL/AMBA/DDR/VIP，14 篇 reference） |
+| `chip-verif-reviewer` | 验证测试点分层评审（ST/IT/BT/UT） |
+| `uvm-verification` | UVM 验证平台开发 |
 | `sva-coverage` | SVA 断言 + 功能覆盖率 |
-| `vcs-simulation` | VCS 编译 / 仿真 |
-| `dv_skills` | 验证平台（DV）技能集 |
-| `chip-verif-reviewer` | 芯片验证评审 |
-| `claude-skill-verilog` | Verilog 技能 |
+| `vcs-simulation` | VCS 编译仿真 + Verdi 调试 |
+| `systemverilog` | SystemVerilog 开发规范 |
+| `claude-skill-verilog` | Verilog 编码风格 + Verilator |
 
-> 本地技能位于 `C:\Users\王鑫鑫\.claude\skills\`，可直接复用或参考其写法封装团队共享技能。
+> 详见 [`verification/README.md`](./verification/README.md)。

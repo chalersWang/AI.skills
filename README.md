@@ -93,20 +93,22 @@ Skills 是「文件夹 + SKILL.md」形式的指令包，Claude Code 等 agent �
 | 技能 | 来源 | ⭐ | 说明 |
 |------|------|----|------|
 | **awesome-formal-verification-skill** | [gokeshenzhen/awesome-formal-verification-skill](https://github.com/gokeshenzhen/awesome-formal-verification-skill) | 34 | FPV/SVA/TCL 工作流（JasperGold 形式验证，含 TCL 脚本） |
-| **vcs-simulation**（本地） | 你本地已装 | — | VCS 仿真流程技能 |
+| **vcs-simulation**（已收录） | [verification/vcs-simulation](./02-chip/verification/vcs-simulation/) | 本地 | VCS 仿真流程技能 |
 
-> 专门的 VCS / Verdi / Formality / PrimeTime / SpyGlass 等 Synopsys 全流程 skill 在 GitHub 上基本空白。**建议**：以你本地的 `vcs-simulation`、`systemverilog`、`uvm-verification`、`sva-coverage`、`dv_skills`、`chip-verif-reviewer` 为主力，按需二次封装成团队 skill。
+> 专门的 VCS / Verdi / Formality / PrimeTime / SpyGlass 等 Synopsys 全流程 skill 在 GitHub 上基本空白，本仓库已收录本地自建的 7 个芯片技能作为主力（见下方）。
 
-### 📦 本地已装芯片技能（作为补充参考）
+### 📦 本地芯片技能（已收录到 `verification/`）
 | 技能 | 用途 |
 |------|------|
-| `systemverilog` | SystemVerilog 语言规范/编码 |
-| `uvm-verification` | UVM 验证方法学 |
+| `dv_skills` | 芯片前端验证技能库（UVM/覆盖率/CDC/低功耗/RAL/AMBA/DDR/VIP，14 篇 reference） |
+| `chip-verif-reviewer` | 验证测试点分层评审（ST/IT/BT/UT） |
+| `uvm-verification` | UVM 验证平台开发 |
 | `sva-coverage` | SVA 断言 + 功能覆盖率 |
-| `vcs-simulation` | VCS 编译/仿真 |
-| `dv_skills` | 验证平台（DV）技能集 |
-| `chip-verif-reviewer` | 芯片验证评审 |
-| `claude-skill-verilog` | Verilog 技能 |
+| `vcs-simulation` | VCS 编译仿真 + Verdi 调试 |
+| `systemverilog` | SystemVerilog 开发规范 |
+| `claude-skill-verilog` | Verilog 编码风格 + Verilator |
+
+> 详见 [`02-chip/verification/README.md`](./02-chip/verification/README.md)。
 
 ---
 
