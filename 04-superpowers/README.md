@@ -12,14 +12,14 @@
 | 技能 | 来源仓库 | ⭐ | 说明 | 规模 |
 |------|----------|----|------|------|
 | **ui-ux-pro-max-skill** | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | 129k | UI/UX 设计智能：风格/配色/字体/图表/技术栈本地检索库 | 7 子技能 |
-| **agent-skills** | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | 96k | 生产级 AI 编码代理工程技能集 | 25 子技能 |
+| **agent-skills** | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | 97.9k | 生产级 AI 编码代理工程技能集 | 25 子技能 |
 | **planning-with-files** | [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files) | 27k | 持久化文件式规划（Manus 风格三文件） | 单技能 |
 | **agent-skills-for-context-engineering** | [muratcankoylan/Agent-Skills-for-Context-Engineering](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering) | 18k | 上下文工程 / 多智能体架构技能集 | 17 子技能 |
-| **obsidian-skills** | [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) | 48.5k | Obsidian 笔记/知识库（CLI、JSON Canvas、Bases） | 6 子技能 |
-| **scientific-agent-skills** | [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | 45.4k | 科研技能库（生物/化学/医学/药物发现） | 166 子技能 |
-| **marketingskills** | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | 50.7k | 营销技能集（CRO/文案/SEO/增长） | 50 子技能 |
+| **obsidian-skills** | [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) | 48.7k | Obsidian 笔记/知识库（CLI、JSON Canvas、Bases） | 6 子技能 |
+| **scientific-agent-skills** | [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | 45.9k | 科研技能库（生物/化学/医学/药物发现） | 166 子技能 |
+| **marketingskills** | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | 51k | 营销技能集（CRO/文案/SEO/增长） | 50 子技能 |
 | **dev-browser** | [SawyerHood/dev-browser](https://github.com/SawyerHood/dev-browser) | 6.6k | 给 agent 浏览器自动化能力（CLI 驱动） | 单技能 |
-| **humanizer** | [blader/humanizer](https://github.com/blader/humanizer) | 49.7k | 去除文本中 AI 生成痕迹 | 单技能 |
+| **humanizer** | [blader/humanizer](https://github.com/blader/humanizer) | 50.8k | 去除文本中 AI 生成痕迹 | 单技能 |
 
 > ⭐ 数据由本仓库的 GitHub Action（`.github/scripts/update_stars.py`）自动刷新。
 
