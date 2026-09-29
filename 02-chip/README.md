@@ -33,6 +33,7 @@
 |------|------|----|------|
 | **awesome-formal-verification-skill** | [gokeshenzhen/awesome-formal-verification-skill](https://github.com/gokeshenzhen/awesome-formal-verification-skill) | 34 | FPV/SVA/TCL 工作流 |
 | **vcs-simulation**（本地） | 你本地已装 | — | VCS 编译/仿真流程 |
+| **fsdb-mcp**（已收录） | [hjxxlogic/fsdb-mcp](https://github.com/hjxxlogic/fsdb-mcp) | 14 | FSDB 波形 MCP 服务器（Verdi NPI 驱动），已导入 [`tools/verdi/fsdb/`](./tools/verdi/fsdb/) |
 
 > 专门的 VCS / Verdi / Formality / PrimeTime / SpyGlass 等 Synopsys 全流程 skill 在 GitHub 上基本空白。**建议**以本地技能为主力，按需二次封装成团队 skill。
 
