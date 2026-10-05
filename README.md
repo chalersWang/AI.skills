@@ -26,43 +26,43 @@ Skills 是「文件夹 + SKILL.md」形式的指令包，Claude Code 等 agent �
 | 技能 | 来源 | ⭐ | 说明 |
 |------|------|----|------|
 | **pdf**（官方） | [anthropics/skills](https://github.com/anthropics/skills/tree/main/skills/pdf) | 官方 | PDF 读取、表单提取、文本抽取，Claude 官方文档技能 |
-| **graphify** | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | 122k | 把代码库 + 文档 + SQL + PDF 变成可查询知识图谱 |
-| **book-to-skill** | [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill) | 32.8k | 把技术书 PDF 一键转成 Claude Code skill |
-| **Skill_Seekers** | [yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers) | 15k | 文档站 / GitHub 仓库 / PDF → skill，含冲突检测 |
+| **graphify** | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | 124k | 把代码库 + 文档 + SQL + PDF 变成可查询知识图谱 |
+| **book-to-skill** | [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill) | 33.8k | 把技术书 PDF 一键转成 Claude Code skill |
+| **Skill_Seekers** | [yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers) | 15.1k | 文档站 / GitHub 仓库 / PDF → skill，含冲突检测 |
 
 ### 1.2 Word（docx）
 | 技能 | 来源 | ⭐ | 说明 |
 |------|------|----|------|
 | **docx**（官方） | [anthropics/skills](https://github.com/anthropics/skills/tree/main/skills/docx) | 官方 | .docx 创建与编辑，Claude 官方文档技能 |
-| **genoffice** | [genspark-ai/genoffice](https://github.com/genspark-ai/genoffice) | 8k | 本地创建/编辑真实 .docx/.xlsx/.pptx，免费开源 |
-| **SoftwareCopyright-Skill** | [Fokkyp/SoftwareCopyright-Skill](https://github.com/Fokkyp/SoftwareCopyright-Skill) | 5.6k | 自动生成全套软著申请 .docx 材料（中文） |
-| **claude-office-skills** | [tfriedel/claude-office-skills](https://github.com/tfriedel/claude-office-skills) | 833 | PPTX/DOCX/XLSX/PDF 全套工作流 |
+| **genoffice** | [genspark-ai/genoffice](https://github.com/genspark-ai/genoffice) | 8.7k | 本地创建/编辑真实 .docx/.xlsx/.pptx，免费开源 |
+| **SoftwareCopyright-Skill** | [Fokkyp/SoftwareCopyright-Skill](https://github.com/Fokkyp/SoftwareCopyright-Skill) | 5.7k | 自动生成全套软著申请 .docx 材料（中文） |
+| **claude-office-skills** | [tfriedel/claude-office-skills](https://github.com/tfriedel/claude-office-skills) | 835 | PPTX/DOCX/XLSX/PDF 全套工作流 |
 
 ### 1.3 Excel（xlsx）
 | 技能 | 来源 | ⭐ | 说明 |
 |------|------|----|------|
 | **xlsx**（官方） | [anthropics/skills](https://github.com/anthropics/skills/tree/main/skills/xlsx) | 官方 | .xlsx 创建、公式、数据分析，Claude 官方文档技能 |
-| **genoffice** | [genspark-ai/genoffice](https://github.com/genspark-ai/genoffice) | 8k | 本地创建/编辑 .xlsx（含公式） |
-| **claude-office-skills** | [tfriedel/claude-office-skills](https://github.com/tfriedel/claude-office-skills) | 833 | XLSX 工作流自动化 |
+| **genoffice** | [genspark-ai/genoffice](https://github.com/genspark-ai/genoffice) | 8.7k | 本地创建/编辑 .xlsx（含公式） |
+| **claude-office-skills** | [tfriedel/claude-office-skills](https://github.com/tfriedel/claude-office-skills) | 835 | XLSX 工作流自动化 |
 
 ### 1.4 PPT（pptx）
 | 技能 | 来源 | ⭐ | 说明 |
 |------|------|----|------|
 | **pptx**（官方） | [anthropics/skills](https://github.com/anthropics/skills/tree/main/skills/pptx) | 官方 | .pptx 生成与编辑，Claude 官方文档技能 |
-| **dashi-ppt-skill** | [chuspeeism/dashi-ppt-skill](https://github.com/chuspeeism/dashi-ppt-skill) | 8.9k | 多视觉主题、浏览器可编辑的演示，导出 HTML/PDF/PPTX |
-| **codex-ppt-skill** | [ningzimu/codex-ppt-skill](https://github.com/ningzimu/codex-ppt-skill) | 6.2k | 基于图片的 PowerPoint 生成 |
+| **dashi-ppt-skill** | [chuspeeism/dashi-ppt-skill](https://github.com/chuspeeism/dashi-ppt-skill) | 9.1k | 多视觉主题、浏览器可编辑的演示，导出 HTML/PDF/PPTX |
+| **codex-ppt-skill** | [ningzimu/codex-ppt-skill](https://github.com/ningzimu/codex-ppt-skill) | 6.3k | 基于图片的 PowerPoint 生成 |
 | **GordenPPTSkill** | [GordenSun/GordenPPTSkill](https://github.com/GordenSun/GordenPPTSkill) | 3.2k | 17 套中文 PPTX 模板 + 非破坏性文字编辑 |
 
 ### 1.5 画图 · 流程图
 | 技能 | 来源 | ⭐ | 说明 |
 |------|------|----|------|
-| **drawio-skill** | [Agents365-ai/drawio-skill](https://github.com/Agents365-ai/drawio-skill) | 9.7k | 自然语言/代码 → 可编辑 draw.io 架构图（含 Mermaid/PPTX 导出） |
+| **drawio-skill** | [Agents365-ai/drawio-skill](https://github.com/Agents365-ai/drawio-skill) | 9.9k | 自然语言/代码 → 可编辑 draw.io 架构图（含 Mermaid/PPTX 导出） |
 | **architecture-diagram-generator** | [Cocoon-AI/architecture-diagram-generator](https://github.com/Cocoon-AI/architecture-diagram-generator) | 7.4k | 深色主题系统架构图，输出 HTML/SVG |
 | **excalidraw-diagram-skill** | [coleam00/excalidraw-diagram-skill](https://github.com/coleam00/excalidraw-diagram-skill) | 4.9k | 生成美观实用的 Excalidraw 图 |
 | **axton-obsidian-visual-skills** | [axtonliu/axton-obsidian-visual-skills](https://github.com/axtonliu/axton-obsidian-visual-skills) | 3.6k | 文本 → Canvas / Excalidraw / Mermaid |
 | **Pretty-mermaid-skills** | [imxv/Pretty-mermaid-skills](https://github.com/imxv/Pretty-mermaid-skills) | 1.5k | Mermaid 图 → SVG / 终端 ASCII，15 主题 6 类图 |
-| **svg-diagram** | [bybit-exchange/svg-diagram](https://github.com/bybit-exchange/svg-diagram) | 591 | 架构/流程/时序/数据流图，手绘级 SVG |
-| **mermaid-skill** | [WH-2099/mermaid-skill](https://github.com/WH-2099/mermaid-skill) | 287 | 全类型 Mermaid 图生成 |
+| **svg-diagram** | [bybit-exchange/svg-diagram](https://github.com/bybit-exchange/svg-diagram) | 605 | 架构/流程/时序/数据流图，手绘级 SVG |
+| **mermaid-skill** | [WH-2099/mermaid-skill](https://github.com/WH-2099/mermaid-skill) | 288 | 全类型 Mermaid 图生成 |
 
 ---
 
@@ -73,19 +73,19 @@ Skills 是「文件夹 + SKILL.md」形式的指令包，Claude Code 等 agent �
 ### 2.1 芯片设计 · 验证 · 中后端
 | 技能 | 来源 | ⭐ | 说明 |
 |------|------|----|------|
-| **verilog-generator** | [Eriemon/verilog-generator](https://github.com/Eriemon/verilog-generator) | 302 | Verilog-2001 RTL 生成 + FPGA 设计流程 |
+| **verilog-generator** | [Eriemon/verilog-generator](https://github.com/Eriemon/verilog-generator) | 308 | Verilog-2001 RTL 生成 + FPGA 设计流程 |
 | **30-days-of-verilog** | [Akashtailor-exe/30-days-of-verilog](https://github.com/Akashtailor-exe/30-days-of-verilog) | 75 | 30 天 Verilog 数字电路练习（门级→FSM） |
 | **108-RTL-Projects** | [Abhishekvlsi/108-RTL-Projects](https://github.com/Abhishekvlsi/108-RTL-Projects) | 64 | 108 个 RTL 设计项目（简单电路→复杂系统） |
 | **RTL-ASS** | [liujianyu20021122/RTL-ASS](https://github.com/liujianyu20021122/RTL-ASS) | 63 | 开源工具链的 RTL 编码 + 验证技能 |
 | **veriflow-cc** | [bjwanneng/veriflow-cc](https://github.com/bjwanneng/veriflow-cc) | 52 | 架构→综合（iVerilog/Yosys）的 RTL 流水线 |
-| **rtl-skills** | [phamcuong21478/rtl-skills](https://github.com/phamcuong21478/rtl-skills) | 15 | 全 RTL 流程：架构/RTL/lint/仿真/回归/综合/文档 |
+| **rtl-skills** | [phamcuong21478/rtl-skills](https://github.com/phamcuong21478/rtl-skills) | 16 | 全 RTL 流程：架构/RTL/lint/仿真/回归/综合/文档 |
 
 > cpu / gpu / npu / riscv / noc / pcie / lpddr / 3d-dram / c2c / d2d 等细分方向，GitHub 上暂无成体系的公开 skill，主要依赖本地技能与上述通用 RTL/验证技能组合使用。
 
 ### 2.2 语言类（VHDL / Verilog / SV / UVM / Coverage / SVA / C / C++ / Python / Tcl / Makefile）
 | 技能 | 来源 | ⭐ | 说明 |
 |------|------|----|------|
-| **verilog-generator** | [Eriemon/verilog-generator](https://github.com/Eriemon/verilog-generator) | 302 | Verilog RTL |
+| **verilog-generator** | [Eriemon/verilog-generator](https://github.com/Eriemon/verilog-generator) | 308 | Verilog RTL |
 | **RTL-ASS** | [liujianyu20021122/RTL-ASS](https://github.com/liujianyu20021122/RTL-ASS) | 63 | Verilog / SystemVerilog |
 | **awesome-formal-verification-skill** | [gokeshenzhen/awesome-formal-verification-skill](https://github.com/gokeshenzhen/awesome-formal-verification-skill) | 34 | SVA / FPV 形式验证（JasperGold） |
 | **veriloga-skills** | [Arcadia-1/veriloga-skills](https://github.com/Arcadia-1/veriloga-skills) | 34 | Verilog-A（模拟建模） |
@@ -132,15 +132,15 @@ Skills 是「文件夹 + SKILL.md」形式的指令包，Claude Code 等 agent �
 
 | 技能 | 来源仓库 | ⭐ | 说明 |
 |------|----------|----|------|
-| **ui-ux-pro-max-skill** | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | 131k | UI/UX 设计智能（风格/配色/字体/图表本地检索库） |
-| **agent-skills** | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | 99.6k | 生产级 AI 编码代理工程技能集（25 子技能） |
-| **planning-with-files** | [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files) | 27.2k | 持久化文件式规划（Manus 风格） |
-| **agent-skills-for-context-engineering** | [muratcankoylan/Agent-Skills-for-Context-Engineering](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering) | 18k | 上下文工程 / 多智能体架构（17 子技能） |
-| **obsidian-skills** | [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) | 49k | Obsidian 笔记 / 知识库（6 子技能） |
-| **scientific-agent-skills** | [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | 46.9k | 科研技能库（生物/化学/医学，166 子技能） |
-| **marketingskills** | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | 51.8k | 营销技能集（CRO/文案/SEO/增长，50 子技能） |
+| **ui-ux-pro-max-skill** | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | 133k | UI/UX 设计智能（风格/配色/字体/图表本地检索库） |
+| **agent-skills** | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | 101k | 生产级 AI 编码代理工程技能集（25 子技能） |
+| **planning-with-files** | [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files) | 27.3k | 持久化文件式规划（Manus 风格） |
+| **agent-skills-for-context-engineering** | [muratcankoylan/Agent-Skills-for-Context-Engineering](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering) | 18.1k | 上下文工程 / 多智能体架构（17 子技能） |
+| **obsidian-skills** | [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) | 49.2k | Obsidian 笔记 / 知识库（6 子技能） |
+| **scientific-agent-skills** | [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | 47.6k | 科研技能库（生物/化学/医学，166 子技能） |
+| **marketingskills** | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | 53.3k | 营销技能集（CRO/文案/SEO/增长，50 子技能） |
 | **dev-browser** | [SawyerHood/dev-browser](https://github.com/SawyerHood/dev-browser) | 6.6k | 浏览器自动化 |
-| **humanizer** | [blader/humanizer](https://github.com/blader/humanizer) | 52.5k | 去除 AI 生成痕迹 |
+| **humanizer** | [blader/humanizer](https://github.com/blader/humanizer) | 54.1k | 去除 AI 生成痕迹 |
 
 > 详见 [`04-superpowers/README.md`](./04-superpowers/README.md)（含子技能清单与安装命令）。
 
