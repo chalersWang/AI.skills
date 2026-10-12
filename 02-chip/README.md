@@ -9,11 +9,11 @@
 ## 2.1 芯片设计 · 验证 · 中后端
 | 技能 | 来源 | ⭐ | 说明 |
 |------|------|----|------|
-| **verilog-generator** | [Eriemon/verilog-generator](https://github.com/Eriemon/verilog-generator) | 308 | Verilog-2001 RTL 生成 + FPGA 设计流程 |
-| **30-days-of-verilog** | [Akashtailor-exe/30-days-of-verilog](https://github.com/Akashtailor-exe/30-days-of-verilog) | 75 | 30 天 Verilog 数字电路练习（门级→FSM） |
+| **verilog-generator** | [Eriemon/verilog-generator](https://github.com/Eriemon/verilog-generator) | 315 | Verilog-2001 RTL 生成 + FPGA 设计流程 |
+| **30-days-of-verilog** | [Akashtailor-exe/30-days-of-verilog](https://github.com/Akashtailor-exe/30-days-of-verilog) | 76 | 30 天 Verilog 数字电路练习（门级→FSM） |
 | **108-RTL-Projects** | [Abhishekvlsi/108-RTL-Projects](https://github.com/Abhishekvlsi/108-RTL-Projects) | 64 | 108 个 RTL 设计项目 |
 | **RTL-ASS** | [liujianyu20021122/RTL-ASS](https://github.com/liujianyu20021122/RTL-ASS) | 63 | 开源工具链的 RTL 编码 + 验证技能 |
-| **veriflow-cc** | [bjwanneng/veriflow-cc](https://github.com/bjwanneng/veriflow-cc) | 52 | 架构→综合（iVerilog/Yosys）RTL 流水线 |
+| **veriflow-cc** | [bjwanneng/veriflow-cc](https://github.com/bjwanneng/veriflow-cc) | 53 | 架构→综合（iVerilog/Yosys）RTL 流水线 |
 | **rtl-skills** | [phamcuong21478/rtl-skills](https://github.com/phamcuong21478/rtl-skills) | 16 | 全 RTL 流程：架构/RTL/lint/仿真/回归/综合/文档 |
 
 > cpu / gpu / npu / riscv / noc / pcie / lpddr / 3d-dram / c2c / d2d 等细分方向，GitHub 上暂无成体系的公开 skill，需以通用 RTL/验证技能 + 本地技能组合实现。
@@ -21,7 +21,7 @@
 ## 2.2 语言类（VHDL / Verilog / SV / UVM / Coverage / SVA / C / C++ / Python / Tcl / Makefile）
 | 技能 | 来源 | ⭐ | 说明 |
 |------|------|----|------|
-| **verilog-generator** | [Eriemon/verilog-generator](https://github.com/Eriemon/verilog-generator) | 308 | Verilog RTL |
+| **verilog-generator** | [Eriemon/verilog-generator](https://github.com/Eriemon/verilog-generator) | 315 | Verilog RTL |
 | **RTL-ASS** | [liujianyu20021122/RTL-ASS](https://github.com/liujianyu20021122/RTL-ASS) | 63 | Verilog / SystemVerilog |
 | **awesome-formal-verification-skill** | [gokeshenzhen/awesome-formal-verification-skill](https://github.com/gokeshenzhen/awesome-formal-verification-skill) | 34 | SVA / FPV（JasperGold，含 TCL） |
 | **veriloga-skills** | [Arcadia-1/veriloga-skills](https://github.com/Arcadia-1/veriloga-skills) | 34 | Verilog-A 模拟建模 |
