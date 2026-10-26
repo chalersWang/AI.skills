@@ -10,8 +10,8 @@
 | 技能 | 来源 | ⭐ | 说明 |
 |------|------|----|------|
 | **pdf**（官方） | [anthropics/skills](https://github.com/anthropics/skills/tree/main/skills/pdf) | 官方 | PDF 读取、表单提取、文本抽取，Claude 官方文档技能 |
-| **graphify** | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | 129k | 代码库 + 文档 + SQL + PDF → 可查询知识图谱 |
-| **book-to-skill** | [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill) | 35.3k | 技术书 PDF 一键转 Claude Code skill |
+| **graphify** | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | 136k | 代码库 + 文档 + SQL + PDF → 可查询知识图谱 |
+| **book-to-skill** | [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill) | 36.1k | 技术书 PDF 一键转 Claude Code skill |
 | **Skill_Seekers** | [yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers) | 15.2k | 文档站 / GitHub 仓库 / PDF → skill，含冲突检测 |
 
 **官方 PDF 技能安装：**
@@ -24,24 +24,24 @@
 | 技能 | 来源 | ⭐ | 说明 |
 |------|------|----|------|
 | **docx**（官方） | [anthropics/skills](https://github.com/anthropics/skills/tree/main/skills/docx) | 官方 | .docx 创建与编辑，Claude 官方文档技能 |
-| **genoffice** | [genspark-ai/genoffice](https://github.com/genspark-ai/genoffice) | 10k | 本地创建/编辑真实 .docx/.xlsx/.pptx，免费开源 |
-| **SoftwareCopyright-Skill** | [Fokkyp/SoftwareCopyright-Skill](https://github.com/Fokkyp/SoftwareCopyright-Skill) | 6k | 自动生成全套软著申请 .docx（中文） |
-| **claude-office-skills** | [tfriedel/claude-office-skills](https://github.com/tfriedel/claude-office-skills) | 839 | PPTX/DOCX/XLSX/PDF 全套工作流 |
+| **genoffice** | [genspark-ai/genoffice](https://github.com/genspark-ai/genoffice) | 10.9k | 本地创建/编辑真实 .docx/.xlsx/.pptx，免费开源 |
+| **SoftwareCopyright-Skill** | [Fokkyp/SoftwareCopyright-Skill](https://github.com/Fokkyp/SoftwareCopyright-Skill) | 6.1k | 自动生成全套软著申请 .docx（中文） |
+| **claude-office-skills** | [tfriedel/claude-office-skills](https://github.com/tfriedel/claude-office-skills) | 841 | PPTX/DOCX/XLSX/PDF 全套工作流 |
 
 ## 1.3 Excel（xlsx）
 | 技能 | 来源 | ⭐ | 说明 |
 |------|------|----|------|
 | **xlsx**（官方） | [anthropics/skills](https://github.com/anthropics/skills/tree/main/skills/xlsx) | 官方 | .xlsx 创建、公式、数据分析 |
-| **genoffice** | [genspark-ai/genoffice](https://github.com/genspark-ai/genoffice) | 10k | 本地创建/编辑 .xlsx（含公式） |
-| **claude-office-skills** | [tfriedel/claude-office-skills](https://github.com/tfriedel/claude-office-skills) | 839 | XLSX 工作流自动化 |
+| **genoffice** | [genspark-ai/genoffice](https://github.com/genspark-ai/genoffice) | 10.9k | 本地创建/编辑 .xlsx（含公式） |
+| **claude-office-skills** | [tfriedel/claude-office-skills](https://github.com/tfriedel/claude-office-skills) | 841 | XLSX 工作流自动化 |
 
 ## 1.4 PPT（pptx）
 | 技能 | 来源 | ⭐ | 说明 |
 |------|------|----|------|
 | **pptx**（官方） | [anthropics/skills](https://github.com/anthropics/skills/tree/main/skills/pptx) | 官方 | .pptx 生成与编辑，Claude 官方文档技能 |
-| **dashi-ppt-skill** | [chuspeeism/dashi-ppt-skill](https://github.com/chuspeeism/dashi-ppt-skill) | 9.7k | 多主题、浏览器可编辑演示，导出 HTML/PDF/PPTX |
-| **codex-ppt-skill** | [ningzimu/codex-ppt-skill](https://github.com/ningzimu/codex-ppt-skill) | 7.1k | 基于图片的 PowerPoint 生成 |
-| **GordenPPTSkill** | [GordenSun/GordenPPTSkill](https://github.com/GordenSun/GordenPPTSkill) | 3.7k | 17 套中文 PPTX 模板 + 非破坏性文字编辑 |
+| **dashi-ppt-skill** | [chuspeeism/dashi-ppt-skill](https://github.com/chuspeeism/dashi-ppt-skill) | 10k | 多主题、浏览器可编辑演示，导出 HTML/PDF/PPTX |
+| **codex-ppt-skill** | [ningzimu/codex-ppt-skill](https://github.com/ningzimu/codex-ppt-skill) | 7.3k | 基于图片的 PowerPoint 生成 |
+| **GordenPPTSkill** | [GordenSun/GordenPPTSkill](https://github.com/GordenSun/GordenPPTSkill) | 3.8k | 17 套中文 PPTX 模板 + 非破坏性文字编辑 |
 
 ## 1.6 文档协作 · 知识库阅读（本地技能）
 | 技能 | 来源 | ⭐ | 说明 |
@@ -54,10 +54,10 @@
 ## 1.5 画图 · 流程图
 | 技能 | 来源 | ⭐ | 说明 |
 |------|------|----|------|
-| **drawio-skill** | [Agents365-ai/drawio-skill](https://github.com/Agents365-ai/drawio-skill) | 10.2k | 自然语言/代码 → 可编辑 draw.io 架构图 |
+| **drawio-skill** | [Agents365-ai/drawio-skill](https://github.com/Agents365-ai/drawio-skill) | 10.4k | 自然语言/代码 → 可编辑 draw.io 架构图 |
 | **architecture-diagram-generator** | [Cocoon-AI/architecture-diagram-generator](https://github.com/Cocoon-AI/architecture-diagram-generator) | 7.5k | 深色主题架构图，输出 HTML/SVG |
-| **excalidraw-diagram-skill** | [coleam00/excalidraw-diagram-skill](https://github.com/coleam00/excalidraw-diagram-skill) | 5k | 生成美观实用的 Excalidraw 图 |
+| **excalidraw-diagram-skill** | [coleam00/excalidraw-diagram-skill](https://github.com/coleam00/excalidraw-diagram-skill) | 5.1k | 生成美观实用的 Excalidraw 图 |
 | **axton-obsidian-visual-skills** | [axtonliu/axton-obsidian-visual-skills](https://github.com/axtonliu/axton-obsidian-visual-skills) | 3.7k | 文本 → Canvas / Excalidraw / Mermaid |
 | **Pretty-mermaid-skills** | [imxv/Pretty-mermaid-skills](https://github.com/imxv/Pretty-mermaid-skills) | 1.5k | Mermaid → SVG / 终端 ASCII，15 主题 |
-| **svg-diagram** | [bybit-exchange/svg-diagram](https://github.com/bybit-exchange/svg-diagram) | 629 | 架构/流程/时序/数据流 SVG |
-| **mermaid-skill** | [WH-2099/mermaid-skill](https://github.com/WH-2099/mermaid-skill) | 293 | 全类型 Mermaid 图生成 |
+| **svg-diagram** | [bybit-exchange/svg-diagram](https://github.com/bybit-exchange/svg-diagram) | 631 | 架构/流程/时序/数据流 SVG |
+| **mermaid-skill** | [WH-2099/mermaid-skill](https://github.com/WH-2099/mermaid-skill) | 295 | 全类型 Mermaid 图生成 |
