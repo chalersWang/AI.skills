@@ -9,29 +9,29 @@
 ## 2.1 芯片设计 · 验证 · 中后端
 | 技能 | 来源 | ⭐ | 说明 |
 |------|------|----|------|
-| **verilog-generator** | [Eriemon/verilog-generator](https://github.com/Eriemon/verilog-generator) | 321 | Verilog-2001 RTL 生成 + FPGA 设计流程 |
+| **verilog-generator** | [Eriemon/verilog-generator](https://github.com/Eriemon/verilog-generator) | 327 | Verilog-2001 RTL 生成 + FPGA 设计流程 |
 | **30-days-of-verilog** | [Akashtailor-exe/30-days-of-verilog](https://github.com/Akashtailor-exe/30-days-of-verilog) | 76 | 30 天 Verilog 数字电路练习（门级→FSM） |
 | **108-RTL-Projects** | [Abhishekvlsi/108-RTL-Projects](https://github.com/Abhishekvlsi/108-RTL-Projects) | 66 | 108 个 RTL 设计项目 |
 | **RTL-ASS** | [liujianyu20021122/RTL-ASS](https://github.com/liujianyu20021122/RTL-ASS) | 55 | 开源工具链的 RTL 编码 + 验证技能 |
 | **veriflow-cc** | [bjwanneng/veriflow-cc](https://github.com/bjwanneng/veriflow-cc) | 55 | 架构→综合（iVerilog/Yosys）RTL 流水线 |
-| **rtl-skills** | [phamcuong21478/rtl-skills](https://github.com/phamcuong21478/rtl-skills) | 18 | 全 RTL 流程：架构/RTL/lint/仿真/回归/综合/文档 |
+| **rtl-skills** | [phamcuong21478/rtl-skills](https://github.com/phamcuong21478/rtl-skills) | 19 | 全 RTL 流程：架构/RTL/lint/仿真/回归/综合/文档 |
 
 > cpu / gpu / npu / riscv / noc / pcie / lpddr / 3d-dram / c2c / d2d 等细分方向，GitHub 上暂无成体系的公开 skill，需以通用 RTL/验证技能 + 本地技能组合实现。
 
 ## 2.2 语言类（VHDL / Verilog / SV / UVM / Coverage / SVA / C / C++ / Python / Tcl / Makefile）
 | 技能 | 来源 | ⭐ | 说明 |
 |------|------|----|------|
-| **verilog-generator** | [Eriemon/verilog-generator](https://github.com/Eriemon/verilog-generator) | 321 | Verilog RTL |
+| **verilog-generator** | [Eriemon/verilog-generator](https://github.com/Eriemon/verilog-generator) | 327 | Verilog RTL |
 | **RTL-ASS** | [liujianyu20021122/RTL-ASS](https://github.com/liujianyu20021122/RTL-ASS) | 55 | Verilog / SystemVerilog |
-| **awesome-formal-verification-skill** | [gokeshenzhen/awesome-formal-verification-skill](https://github.com/gokeshenzhen/awesome-formal-verification-skill) | 34 | SVA / FPV（JasperGold，含 TCL） |
-| **veriloga-skills** | [Arcadia-1/veriloga-skills](https://github.com/Arcadia-1/veriloga-skills) | 37 | Verilog-A 模拟建模 |
+| **awesome-formal-verification-skill** | [gokeshenzhen/awesome-formal-verification-skill](https://github.com/gokeshenzhen/awesome-formal-verification-skill) | 36 | SVA / FPV（JasperGold，含 TCL） |
+| **veriloga-skills** | [Arcadia-1/veriloga-skills](https://github.com/Arcadia-1/veriloga-skills) | 38 | Verilog-A 模拟建模 |
 
 > C / C++ / Python / Tcl / Makefile 建议复用主流通用编程 skill；芯片专用封装少。
 
 ## 2.3 工具（Synopsys 全流程：VCS / Verdi / Formality / PrimeTime / SpyGlass）
 | 技能 | 来源 | ⭐ | 说明 |
 |------|------|----|------|
-| **awesome-formal-verification-skill** | [gokeshenzhen/awesome-formal-verification-skill](https://github.com/gokeshenzhen/awesome-formal-verification-skill) | 34 | FPV/SVA/TCL 工作流 |
+| **awesome-formal-verification-skill** | [gokeshenzhen/awesome-formal-verification-skill](https://github.com/gokeshenzhen/awesome-formal-verification-skill) | 36 | FPV/SVA/TCL 工作流 |
 | **vcs-simulation**（本地） | 你本地已装 | — | VCS 编译/仿真流程 |
 | **fsdb-mcp**（已收录） | [hjxxlogic/fsdb-mcp](https://github.com/hjxxlogic/fsdb-mcp) | 14 | FSDB 波形 MCP 服务器（Verdi NPI 驱动），已导入 [`tools/verdi/fsdb/`](./tools/verdi/fsdb/) |
 
